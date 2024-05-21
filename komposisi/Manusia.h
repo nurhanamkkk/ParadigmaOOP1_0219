@@ -10,7 +10,8 @@ public:
       manusia(string pName) : name(pName) {
             cout << name << "hidup\n";
            }
-        ~manusia() {
+     ~manusia() {
             cout << name << " mati\n";
         }
 };
+#endif
